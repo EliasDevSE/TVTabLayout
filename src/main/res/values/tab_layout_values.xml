@@ -59,7 +59,7 @@
         <attr name="tabCircleDotColor" />
 
         <attr name="tabScrollMode" />
-        <attr name="tabIndicatorGravity" />
+        <attr name="tabIndicatorGravityVal" />
 
         <attr name="tabMinWidth" />
         <attr name="tabMaxWidth" />

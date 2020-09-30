@@ -24,6 +24,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -60,5 +61,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-900.-360.900.1440/1920.0.1920.1080@0.0.1920.1040" timestamp="1601506000279" />
+    <state x="656" y="252" width="1074" height="739" key="find.popup" timestamp="1601508158569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="252" width="1074" height="739" key="find.popup/0.0.1920.1040/-900.-360.900.1440/1920.0.1920.1080@0.0.1920.1040" timestamp="1601508158569" />
   </component>
 </project>

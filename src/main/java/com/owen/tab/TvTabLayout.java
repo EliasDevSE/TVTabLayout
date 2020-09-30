@@ -312,7 +312,7 @@ public class TvTabLayout extends HorizontalScrollView {
             mTabStrip.setIndicatorDrawable(mStateListDrawable);
         }
 
-        mIndicatorGravity = a.getInt(R.styleable.TvTabLayout_tabIndicatorGravity, GRAVITY_BOTTOM);
+        mIndicatorGravity = a.getInt(R.styleable.TvTabLayout_tabIndicatorGravityVal, GRAVITY_BOTTOM);
         mTabStrip.setCircleDotRadius(a.getDimensionPixelOffset(R.styleable.TvTabLayout_tabCircleDotRadius, 0));
         mTabStrip.setCircleDotColor(a.getColor(R.styleable.TvTabLayout_tabCircleDotColor, 0));
         mTabStrip.setIndicatorWidth(a.getDimensionPixelOffset(R.styleable.TvTabLayout_tabIndicatorWidth, 0));
