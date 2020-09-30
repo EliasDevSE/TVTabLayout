@@ -344,7 +344,7 @@ public class TvTabLayout extends HorizontalScrollView {
         mContentInsetStart = a.getDimensionPixelOffset(R.styleable.TvTabLayout_tabContentStart, 0);
         mContentInsetBottom = a.getDimensionPixelOffset(R.styleable.TvTabLayout_tabContentBottom, 0);
         mScrollMode = a.getInt(R.styleable.TvTabLayout_tabScrollMode, MODE_FIXED);
-        mTabGravity = a.getInt(R.styleable.TvTabLayout_tabGravity, GRAVITY_CENTER);
+        //mTabGravity = a.getInt(R.styleable.TvTabLayout_tabGravity, GRAVITY_CENTER);
     
         mTabTextSelectedCentered = a.getBoolean(R.styleable.TvTabLayout_tabTextSelectedCentered, false);
         mTabTextSelectedScaleValue = a.getFloat(R.styleable.TvTabLayout_tabTextSelectedScale, 0);

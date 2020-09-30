@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\R10P\Desktop\TVTabLayout-master\src\main\res"/><source path="C:\Users\R10P\Desktop\TVTabLayout-master\build\generated\res\rs\debug"/><source path="C:\Users\R10P\Desktop\TVTabLayout-master\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\R10P\Desktop\TVTabLayout-master\src\main\res"><file name="tab_layout_tab_icon" path="C:\Users\R10P\Desktop\TVTabLayout-master\src\main\res\layout\tab_layout_tab_icon.xml" qualifiers="" type="layout"/><file name="tab_layout_tab_text" path="C:\Users\R10P\Desktop\TVTabLayout-master\src\main\res\layout\tab_layout_tab_text.xml" qualifiers="" type="layout"/><file path="C:\Users\R10P\Desktop\TVTabLayout-master\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">tv-tablayout</string></file><file path="C:\Users\R10P\Desktop\TVTabLayout-master\src\main\res\values\tab_layout_values.xml" qualifiers=""><declare-styleable name="TabItem">
+        <attr name="android:text"/>
+        <attr name="android:icon"/>
+        <attr name="android:layout"/>
+    </declare-styleable><attr format="reference" name="tabIndicatorResId"/><attr format="dimension" name="tabIndicatorWidth"/><attr format="dimension" name="tabIndicatorHeight"/><attr format="dimension" name="tabIndicatorBackgroundHeight"/><attr format="color" name="tabIndicatorBackgroundColor"/><attr format="dimension" name="tabContentStart"/><attr format="dimension" name="tabContentBottom"/><attr format="reference" name="tabBackground"/><attr format="dimension" name="tabCircleDotRadius"/><attr format="color|reference" name="tabCircleDotColor"/><attr name="tabScrollMode">
+        <enum name="scrollable" value="0"/>
+        <enum name="fixed" value="1"/>
+    </attr><attr name="tabGravity">
+        <enum name="top" value="0"/>
+        <enum name="center" value="1"/>
+        <enum name="bottom" value="2"/>
+        <enum name="fill" value="3"/>
+    </attr><attr name="tabIndicatorGravity">
+        <enum name="top" value="0"/>
+        <enum name="center" value="1"/>
+        <enum name="bottom" value="2"/>
+    </attr><attr format="dimension" name="tabMinWidth"/><attr format="dimension" name="tabMaxWidth"/><attr format="dimension" name="tabTexSize"/><attr format="color|reference" name="tabTextColor"/><attr format="float" name="tabTextSelectedScale"/><attr format="boolean" name="tabTextSelectedCentered"/><attr format="dimension" name="tabPaddingStart"/><attr format="dimension" name="tabPaddingTop"/><attr format="dimension" name="tabPaddingEnd"/><attr format="dimension" name="tabPaddingBottom"/><attr format="dimension" name="tabPadding"/><declare-styleable name="TvTabLayout">
+        <attr name="tabIndicatorResId"/>
+        <attr name="tabIndicatorWidth"/>
+        <attr name="tabIndicatorHeight"/>
+        <attr name="tabIndicatorBackgroundHeight"/>
+        <attr name="tabIndicatorBackgroundColor"/>
+        <attr name="tabContentStart"/>
+        <attr name="tabContentBottom"/>
+        <attr name="tabBackground"/>
+        <attr name="tabCircleDotRadius"/>
+        <attr name="tabCircleDotColor"/>
+
+        <attr name="tabScrollMode"/>
+        <attr name="tabIndicatorGravity"/>
+
+        <attr name="tabMinWidth"/>
+        <attr name="tabMaxWidth"/>
+
+        <attr name="tabTexSize"/>
+        <attr name="tabTextColor"/>
+        <attr name="tabTextSelectedScale"/>
+        <attr name="tabTextSelectedCentered"/>
+
+        <attr name="tabPaddingStart"/>
+        <attr name="tabPaddingTop"/>
+        <attr name="tabPaddingEnd"/>
+        <attr name="tabPaddingBottom"/>
+        <attr name="tabPadding"/>
+    </declare-styleable><dimen name="tablayout_tab_scrollable_min_width">72dp</dimen><dimen name="tablayout_tab_text_size">14sp</dimen><dimen name="tablayout_tab_text_size_2line">12sp</dimen></file></source><source path="C:\Users\R10P\Desktop\TVTabLayout-master\build\generated\res\rs\debug"/><source path="C:\Users\R10P\Desktop\TVTabLayout-master\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\R10P\Desktop\TVTabLayout-master\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\R10P\Desktop\TVTabLayout-master\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="TvTabLayout"><attr name="tabIndicatorResId"/><attr name="tabIndicatorWidth"/><attr name="tabIndicatorHeight"/><attr name="tabIndicatorBackgroundHeight"/><attr name="tabIndicatorBackgroundColor"/><attr name="tabContentStart"/><attr name="tabContentBottom"/><attr name="tabBackground"/><attr name="tabCircleDotRadius"/><attr name="tabCircleDotColor"/><attr name="tabScrollMode"/><attr name="tabIndicatorGravity"/><attr name="tabMinWidth"/><attr name="tabMaxWidth"/><attr name="tabTexSize"/><attr name="tabTextColor"/><attr name="tabTextSelectedScale"/><attr name="tabTextSelectedCentered"/><attr name="tabPaddingStart"/><attr name="tabPaddingTop"/><attr name="tabPaddingEnd"/><attr name="tabPaddingBottom"/><attr name="tabPadding"/></declare-styleable><declare-styleable name="TabItem"><attr name="android:text"/><attr name="android:icon"/><attr name="android:layout"/></declare-styleable></configuration></mergedItems></merger>

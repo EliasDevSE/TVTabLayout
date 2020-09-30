@@ -1,16 +1,21 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+
+
+
+ext {
+    compileSdkVersion = 26
+}
+
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
-
+        minSdkVersion 21
+        targetSdkVersion 29
     }
+
+
 
     buildTypes {
         release {
@@ -24,16 +29,40 @@ android {
     }
 }
 
-publish {
-    userOrg = 'zhousuqiang'
-    groupId = 'com.owen'
-    artifactId = 'tv-tablayout'
-    publishVersion = '2.0.0'
-    desc = 'TvTabLayout'
-    website = 'https://github.com/zhousuqiang/TvTabLayout'
+
+
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+    }
+}
+
+
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+
 }
 
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api "androidx.appcompat:appcompat:1.1.0"
 }
+
+
