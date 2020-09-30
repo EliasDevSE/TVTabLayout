@@ -21,7 +21,7 @@
         <enum name="scrollable" value="0"/>
         <enum name="fixed" value="1"/>
     </attr>
-    <attr name="tabGravity">
+    <attr name="tabGravityVal">
         <enum name="top" value="0"/>
         <enum name="center" value="1"/>
         <enum name="bottom" value="2"/>
